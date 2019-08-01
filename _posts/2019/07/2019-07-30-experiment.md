@@ -1,5 +1,3 @@
-hello, laurie.
+Starting a blog IRL
 ====
-ooof
 
-looks great.
