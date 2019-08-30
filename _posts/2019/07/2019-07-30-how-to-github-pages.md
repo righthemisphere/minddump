@@ -2,7 +2,8 @@
 layout: post
 title:  "How to Github Pages"
 date:   2019-07-30 17:46:00 -0700
-categories: [meta, readme]
+categories: [meta]
+tags: [readme howto]
 ---
 
 Hey, Laurie!
@@ -34,6 +35,6 @@ For now, take a look at this post on your Github Pages site to see some bare-bon
 * Notice the URL mapping between your repository, the Github Pages site, and the information in the front matter. (Specifically, the Github Pages url contains "meta" and "readme" and your repository does not.)
   * (Note: I have a suspicion why the date this is published is shown as on the 31st, but the front matter says the 30th - I think it's a time zone offset thing that's misconfigured. I'll fix that at some point, but the date in the front matter *should* be reflected in Github Pages).
 
-[The front matter is specific to Github Pages, yes this link is really long so you are tempted to click on it and read the official documentation](https://jekyllrb.com/docs/front-matter/) so it does require learning fresh when you're getting started, but it's not that complicated, so hopefully it'll not take too much effort. Basically, it takes the form of `key: value` where the key can be interpreted by the software that builds your website (like `tags` or `categories`) and the value is what you want to set for that particular bit of data. Tags and categories are very similar: for now, **use categories** until we reorganize later.
+[The front matter is specific to Github Pages, yes this link is really long so you are tempted to click on it and read the official documentation](https://jekyllrb.com/docs/front-matter/) so it does require learning fresh when you're getting started, but it's not that complicated, so hopefully it'll not take too much effort. Basically, it takes the form of `key: value` where the key can be interpreted by the software that builds your website (like `tags` or `categories`) and the value is what you want to set for that particular bit of data. Tags and categories are very similar: for now, **use tags** until we reorganize later.
 
 Other than that, for now, keep typing up your thoughts in plain text (or look at this file in your repository and on Github Pages on your own time to learn some Markdown) and we'll circle back later.
